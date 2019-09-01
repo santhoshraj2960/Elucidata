@@ -1,0 +1,52 @@
+<html>
+	<head>
+
+		<meta charset="utf-8">
+
+
+		<title>Elucidata - Graph display</title>
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> <!-- for jquery -->
+
+
+	</head>
+
+	<body>
+
+		<header>
+
+			<!-- Fixed navbar -->
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"> 
+				<a class="navbar-brand" href="/todolist">Elucidata metabolites analysis</a>
+					
+			</nav>
+		</header>
+
+		<!-- Begin page content -->
+		<main role="main" class="container" style="padding: 72px 15px 0;">
+
+			<form action="metabolite_details/" method="post">
+			  	{% csrf_token %}
+
+			    <div class="form-group">
+ 			    	<p>
+ 			    		<label for="id_metabolite_type">Metabolite Type:</label>
+ 			    		<select name="metabolite_type" id="metabolite_type" class="custom-select mb-3" required="">
+ 			    			{% for metabolite in all_metabolites %}
+ 			    			    <option value="{{metabolite}}">{{ metabolite }}</option>
+ 			    			{% endfor %}
+ 			    		</select>
+ 			    	</p>
+ 			    </div>
+
+			    <button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</main>
+
+
+
+	</body>
+</html>
