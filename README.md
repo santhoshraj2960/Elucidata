@@ -2,13 +2,13 @@
 
 Interview task (Protein analaysis)
 
-Elucidata is a tool designed for graphical visualization of proteins' data.
+Elucidata is a tool designed for **graphical visualization** of proteins' data.
 
 Requirements
  1) Django 1.8
  2) Python 2.7
  
- Screen shots: https://github.com/santhoshraj2960/Elucidata/tree/master/screen_shots
+ **Screen shots:** https://github.com/santhoshraj2960/Elucidata/tree/master/screen_shots
 
 
 How to set it up
