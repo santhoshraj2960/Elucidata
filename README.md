@@ -9,6 +9,8 @@ Django 1.8
 Python 2.7
 How to set it up
 
+Screen Shots of the project: https://github.com/santhoshraj2960/Elucidata/tree/master/screen_shots
+
 Download or Clone the git repo on your local system
 
 Navigate inside elucidata directory
@@ -24,3 +26,4 @@ Select a protein type from the drop down and click on submit button.
 Now you will be able to graphically see the "NA corrected with zero" values of that protein structure in the form of a bar graph. You can verify this data by opening the metabolites.csv file present inside the elucidata directory.
 
 Also refer to the screenshots directory to get an idea of how your graph might look like
+https://github.com/santhoshraj2960/Elucidata/tree/master/screen_shots
