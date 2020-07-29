@@ -9,6 +9,10 @@ Requirements
  2) Python 2.7
  
  **Screen shots:** https://github.com/santhoshraj2960/Elucidata/tree/master/screen_shots
+ 
+![Image of social media scheduler](https://github.com/santhoshraj2960/Protein-Analysis/blob/master/screen_shots/Screen%20Shot%202018-07-09%20at%2012.23.23.png)
+
+![Image of social media scheduler](https://github.com/santhoshraj2960/Protein-Analysis/blob/master/screen_shots/Screen%20Shot%202018-07-09%20at%2012.24.15.png)
 
 
 How to set it up
