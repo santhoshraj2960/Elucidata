@@ -15,7 +15,7 @@ Requirements
 ![Image of social media scheduler](https://github.com/santhoshraj2960/Protein-Analysis/blob/master/screen_shots/Screen%20Shot%202018-07-09%20at%2012.24.15.png)
 
 
-How to set it up
+# How to set it up
 1) Download or Clone the git repo on your local system
 2) Navigate inside elucidata directory
 3) Run the following command
