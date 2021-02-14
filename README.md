@@ -8,9 +8,13 @@ Requirements
  1) Django 1.8
  2) Python 2.7
  
- **Screen shots:** https://github.com/santhoshraj2960/Elucidata/tree/master/screen_shots
+ # Dashboard where you select the "Metabolite type" and click "Submit" button
+![alt text](https://github.com/santhoshraj2960/Protein-Analysis/blob/master/screen_shots/Screen%20Shot%202018-07-09%20at%2012.23.23.png)
  
-![Image of social media scheduler](https://github.com/santhoshraj2960/Protein-Analysis/blob/master/screen_shots/Screen%20Shot%202018-07-09%20at%2012.23.23.png)
+ 
+
+ # On click of "Submit" button, we see a visuatization of 2 KPI's of that Metabolite plotted against each other on X and Y axis is rendered
+![alt text](https://github.com/santhoshraj2960/Protein-Analysis/blob/master/screen_shots/Screen%20Shot%202018-07-09%20at%2012.24.15.png)
 
 ![Image of social media scheduler](https://github.com/santhoshraj2960/Protein-Analysis/blob/master/screen_shots/Screen%20Shot%202018-07-09%20at%2012.24.15.png)
 
